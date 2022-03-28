@@ -1,0 +1,95 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #e45d5d;
+    background-image: url('https://images.unsplash.com/photo-1600150806237-a7dffed6b53c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwYWdyaWN1bHR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: rgb(253, 255, 254);
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: center;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: rgb(116, 204, 58);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .para{
+      font-family:  'Patrick Hand', cursive;
+      font-size: 20px;
+      background-color: rgb(219, 219, 25);
+      border: 5px dotted ;
+      border-radius: 8px;
+  }
+  .heading{
+      color:navy;
+       /* font-family: 'Comfortaa', cursive; */
+       font-weight: bold;
+  }
+  .subhead{
+      color: rgb(188, 27, 228);
+      font-size: 20px;
+      text-decoration-line: underline;
+  }
+  #soil{
+    font-family:  'Patrick Hand', cursive;
+    /* border: 2px solid red; */
+    font-size: 30px;
+    /* background-color: rgb(253, 255, 254); */
+    color: royalblue;
+    /* width: 100px; */
+    text-align: center;
+    /* padding-top: 50%; */
+  }
